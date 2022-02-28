@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background: rgb(13, 1, 20);
+    text-align: center;
+    font-family: sans-serif;
+    color: #fefefe;
+  }
+  .container {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+  }
+  
+  .carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+  }
+  .carousel__face { 
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+
+    display: flex;
+  }
+  
+  span {
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+  
+  .carousel__face:nth-child(1) {
+    background-image: url("");
+    transform: rotateY(  0deg) translateZ(430px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cf/Kalinga_ornata.png?1646078910931");
+      transform: rotateY( 40deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Blue_dragon-glaucus_atlanticus_%288599051974%29.jpg/1280px-Blue_dragon-glaucus_atlanticus_%288599051974%29.jpg?1646078963397");
+    transform: rotateY( 80deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    background-image: url("https://i0.wp.com/sevenseasmedia.org/wp-content/uploads/2019/10/Photo1.jpg?resize=840%2C630&ssl=1");
+    transform: rotateY(120deg) translateZ(430px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url("https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/import/2014/files/_images/201406/nudi-7-9x6.jpg?itok=UMr1ChJ3");
+   transform: rotateY(160deg) translateZ(430px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url("https://live.staticflickr.com/975/42141780371_5841180b77_b.jpg");
+   transform: rotateY(200deg) translateZ(430px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url("https://mlyrymjj8hwz.i.optimole.com/qFpK3O8-k36d9KCf/w:794/h:794/q:auto/https://goodness-exchange.com/wp-content/uploads/2021/09/Nembrotha_kubaryana_2-e1540493697556.jpg");
+   transform: rotateY(240deg) translateZ(430px); }
+  .carousel__face:nth-child(8) {
+    background-image: url("https://static-similan.similandivingtours.com/images/nudibranchs-similan-blog/Nudibranch-Yellow-Spotted-Flatworm-Aida-Karamesic.jpg");
+    transform: rotateY(280deg) translateZ(430px); }
+  .carousel__face:nth-child(9) {
+    background-image: url("https://cdn.notroublesjustbubbles.com/images/marine-life/Pikachu-Nudibranch.JPG");
+    transform: rotateY(320deg) translateZ(430px); }
+  
+  
+
+      .carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 60s infinite forwards linear;
+  }
+  .carousel__face { 
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+
+    display: flex;
+  }
+  
+  span {
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+  
+  .carousel__face:nth-child(1) {
+    background-image: url("");
+    transform: rotateY(  0deg) translateZ(430px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url("https://st.depositphotos.com/1066655/5090/i/600/depositphotos_50908347-stock-photo-colorful-nudibranch.jpg");
+      transform: rotateY( 40deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url("https://preview.redd.it/t6v3fxwgb5c41.jpg?auto=webp&s=68bf209b93ab4aad8d5347cecdd480ade8839c31");
+    transform: rotateY( 80deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    background-image: url("https://www.australiangeographic.com.au/wp-content/uploads/2019/04/sea-bunny-nudibranch.jpg");
+    transform: rotateY(120deg) translateZ(430px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url("https://flyandsea.com/wp-content/uploads/2020/02/RickNudi2-940web.jpg");
+   transform: rotateY(160deg) translateZ(430px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url("https://scubadiverlife.com/wp-content/uploads/2019/08/nudi-featured.jpg");
+   transform: rotateY(200deg) translateZ(430px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url("https://www.vichighmarine.ca/wp-content/uploads/2017/02/Frosted-Nudibranch-640x321.jpg");
+   transform: rotateY(240deg) translateZ(430px); }
+  .carousel__face:nth-child(8) {
+    background-image: url("https://fpsbutest.files.wordpress.com/2012/06/1alabaster_nudibranch.jpg?w=640");
+    transform: rotateY(280deg) translateZ(430px); }
+  .carousel__face:nth-child(9) {
+    background-image: url("https://reefidbooks.com/wp-content/uploads/2020/06/0130-Hydatina-physis-pl-id.jpg");
+    transform: rotateY(320deg) translateZ(430px); }
+  
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+
+  h1 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+  }
+  
